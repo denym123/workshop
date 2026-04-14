@@ -19,13 +19,14 @@ O *Intake* é a "porta de entrada" única para novas demandas. Seu objetivo é g
 4.  **Priorização:** Decisão conjunta (Comitê ou Gestores) sobre o que deve ser feito primeiro com base no valor público e prazo legal.
 
 ### 16.3. A Ficha de Demanda
-A Ficha de Demanda é o artefato que formaliza este processo. Ela deve conter, no mínimo:
-- **ID Único e Data:** Para rastreabilidade.
-- **Solicitante e Área:** Identificação clara da origem.
-- **Descrição Objetiva:** O que deve ser feito e por quê.
-- **Justificativa Legal/Operacional:** O embasamento daquela necessidade no TR ou Contrato.
-- **Estimativa de Esforço (UST):** O custo técnico da demanda.
-- **Riscos e Impactos:** Identificação prévia do que pode ser afetado.
+A Ficha de Demanda é o artefato que formaliza este processo. Ela deve contemplar os seguintes elementos fundamentais:
+
+- **Natureza e Origem da Demanda:** Identificação clara se é uma correção, melhoria ou novo escopo, e quem é o solicitante oficial.
+- **Responsabilidade e Execução:** Definição de quem são os responsáveis pela homologação no cliente e quem executará a tarefa na equipe técnica.
+- **Métrica de Sucesso:** Como saberemos que a demanda foi atendida? (Ex: "Redução de 20% no tempo de processamento" ou "Emissão do relatório X sem erros").
+- **Restrições e Riscos:** Quais são os limitadores técnicos ou de prazo e o que pode comprometer a entrega.
+- **Trilha de Execução:** O mapeamento dos marcos (milestones) desde a autorização até a entrega final e aceite.
+- **Estimativa de Esforço (UST):** O custo técnico da demanda devidamente mapeado no catálogo de serviços.
 
 ---
 **Conclusão:** Implementar um processo de intake e utilizar fichas de demanda robustas protege a empresa contra o trabalho invisível e garante que o gestor público tenha total visibilidade e controle sobre o que está sendo produzido.
