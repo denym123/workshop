@@ -57,6 +57,13 @@ Após a formalização, a mudança é implementada pela equipe técnica. Tão im
 - Prints de tela e logs de sistema.
 - Termos de aceite parciais ou finais, conforme os ritos de medição e pagamento estabelecidos.
 
+### 14.5. Regras de Ouro e Riscos Associados
+Para reforçar a segurança do projeto, o analista deve estar atento a estes riscos críticos:
+
+*   **Impacto das Ramificações:** Implementar uma mudança sem compreender profundamente suas ramificações técnicas e contratuais gera retrabalho, custos não planejados e pode levar à responsabilização administrativa das partes envolvidas.
+*   **Aprovação Clara e Formal:** A ausência de uma aprovação documental explícita é o caminho mais curto para mal-entendidos e cobranças indevidas de funcionalidades que "parecem triviais", mas fogem ao escopo original.
+*   **Comprovação para Faturamento:** A falta de comprovação formal da execução de uma mudança inviabiliza o faturamento (glosa) e expõe a empresa em auditorias futuras, tanto internas quanto externas (TCU/TCE).
+
 ---
 
 **Conclusão:** O Analista de Negócios atua como o **guardião da formalidade**. Sua função é garantir que a necessidade de mudança do cliente seja devidamente canalizada para os processos legais de aditamento ou apostilamento, protegendo a empresa e o gestor público.
