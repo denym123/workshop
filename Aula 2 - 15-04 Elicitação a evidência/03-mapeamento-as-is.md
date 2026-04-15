@@ -74,6 +74,28 @@ Abaixo, detalhamos cada etapa do processo atual, ancorando cada atividade em sua
 > [!TIP]
 > **Dica para o Analista:** No Passo 0, observe se o cidadão recebe algum comprovante de entrega (Protocolo). Isso pode ser uma evidência **EV4** a ser coletada.
 
+### 4.5. Métricas Atuais do Processo (Indicadores)
+Conhecer os números atuais é vital para medir o sucesso do SIGA no futuro. Estes dados foram coletados através da triangulação de fontes técnicas e humanas:
+
+| Indicador | Valor Atual | Observação / Evidência |
+| :--- | :--- | :--- |
+| **Tempo Médio Total** | 45 Dias | Do protocolo à entrega final do alvará impresso. |
+| **Taxa de Pendência/Indeferimento** | Alta (Não medida) | Percepção de alto retrabalho por falta de validação inicial. |
+| **Volume Mensal** | ~150 Processos | Média constante de solicitações no balcão de atendimento. |
+| **Custo Estimado** | Não Medido | Envolve papel, transporte físico e horas-homem de 3 secretarias. |
+
+---
+
+## 5. Gargalos, Dores e Retrabalhos
+
+Identificar os pontos de fricção no AS-IS é o que justifica a criação do novo sistema (SIGA). Abaixo, listamos os principais gargalos mapeados no processo da Prefeitura de Porto Real:
+
+| | Dor/Gargalo | Onde ocorre | Causa Provável | Efeito | Indicador Atual | Evidência |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **G-01** | Perda de tempo no transporte | Entre os passos 2 e 3 | O transporte por malote entre secretarias é lento e ocorre apenas 2 vezes por semana. | O processo fica parado por até 3 dias. | 45 dias (tempo médio total) | **EV-02** |
+| **G-02** | Erros de preenchimento | No passo 1 | O formulário físico é complexo e não tem validação, gerando erros que só são vistos no passo 4. | Alta taxa de pendências (estimada em 40%). | N/A | **EV-02** |
+| **G-03** | Falta de rastreabilidade | No passo 2 | O processo é físico e não há registro centralizado de quem está com a pasta. | O cidadão liga para o protocolo e ninguém sabe informar o status real. | 10 ligações/dia | **EV-03** |
+
 ---
 
 > [!IMPORTANT]
