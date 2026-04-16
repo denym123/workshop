@@ -37,7 +37,31 @@ O novo fluxo utiliza o SIGA como a única fonte da verdade, integrando as áreas
 | **3** | Assinatura eletrônica do Alvará | Secretário | Assinador Digital SIGA | Parecer Favorável | Alvará Digital Assinado | 1 Dia | Hash de Autenticidade |
 | **4** | Disponibilização do Alvará | SIGA (Sistema) | Portal do Cidadão / E-mail | Alvará Assinado | Alvará em PDF / QR Code | Instantâneo | Log de Download |
 
+## 4. Governança B2G e Integração de UST no TO-BE
+
+O SIGA não é apenas uma ferramenta de automação, mas um mecanismo de governança que garante a conformidade do contrato B2G.
+
+- **Formalização de Requisitos (PES):** Qualquer nova funcionalidade ou melhoria no SIGA que esteja explicitamente no TR será formalizada via **PES (Proposta de Execução de Serviço)** antes de entrar em desenvolvimento.
+- **Rastreabilidade e Auditoria:** O sistema registrará automaticamente todas as ações (quem, o quê, quando). Esses logs servirão como **evidência primária** para auditorias e medições precisas de USTs.
+- **Transparência e Satisfação:** O Portal do Cidadão permitirá o acompanhamento online do status do alvará em tempo real, reduzindo drasticamente a demanda por atendimento presencial e aumentando a satisfação do munícipe.
+- **Evidência de Entrega e Faturamento:** A emissão do alvará eletrônico e os logs de conclusão do workflow são as evidências incontestáveis para o faturamento das USTs relacionadas à automação e manutenção do processo.
+
+## 5. Validação do Mapeamento e Proposta
+
+Este documento representa o entendimento da **ae3** sobre o processo atual (AS-IS) e a proposta de otimização (TO-BE). Ele **deve ser validado** pelo responsável no órgão para servir como base sólida para as próximas fases do projeto e para a formalização de USTs para a implementação do SIGA.
+
+- **Responsável pela Validação (Cliente):** Nome do Fiscal ou Gestor do Contrato.
+- **Data da Validação:** ____/____/2026
+
+### Evidência do Aceite:
+- [ ] Ata de Reunião (Anexar ID/Link)
+- [ ] E-mail de Aprovação (Anexar PDF)
+- [ ] Assinatura no Documento Físico
+
 ---
 
 > [!TIP]
 > **Dica de Governança:** No TO-BE, a finalização do Passo 3 (Assinatura) pode gatilhar automaticamente a contagem de USTs para faturamento, uma vez que a evidência (Hash de Autenticidade) é gerada pelo sistema.
+
+> [!CAUTION]
+> A implementação do TO-BE sem a validação formal do Gestor do Contrato pode resultar em glosas futuras e desvios de finalidade técnica. Garanta o aceite antes de iniciar o desenvolvimento.
